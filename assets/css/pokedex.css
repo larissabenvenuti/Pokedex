@@ -1,0 +1,105 @@
+#pokemonList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.pokemon-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 200px;
+}
+
+.pokemon-item.fire { background-color: #D83F28; }
+.pokemon-item.water { background-color: #1D6B99; }
+.pokemon-item.grass { background-color: #4B9F58; }
+.pokemon-item.electric { background-color: #F5C300; }
+.pokemon-item.ghost { background-color: #5A2D81; }
+.pokemon-item.poison { background-color: #6A2E9C; }
+.pokemon-item.fighting { background-color: #9B2D2F; }
+.pokemon-item.psychic { background-color: #E6408D; }
+.pokemon-item.dragon { background-color: #B75C10; }
+.pokemon-item.fairy { background-color: #EC5D8C; }
+.pokemon-item.normal { background-color: #7F7F7F; }
+.pokemon-item.dark { background-color: #222222; }
+.pokemon-item.rock { background-color: #A18A56; }
+.pokemon-item.steel { background-color: #607B87; }
+.pokemon-item.bug { background-color: #6B8E23; }
+.pokemon-item.flying { background-color: #66AEDD; }
+.pokemon-item.ground { background-color: #9B7C53; }
+
+.pokemon-number {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.pokemon-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pokemon-image {
+    margin-top: 5px;
+    width: auto;
+    max-width: 80%;
+}
+
+.pokemon-types {
+    margin-top: 5px;
+}
+
+.pokemon-type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#loadMoreButton {
+   background-color:#007bff;
+   color:#fff;
+   padding :10px 20px;
+   font-size :1rem;
+   border :none;
+   border-radius :5px;
+   cursor :pointer;
+   margin-top :20px;
+   transition :background-color 0.3s ease , transform 0.3s ease;
+}
+
+#loadMoreButton:hover {
+   background-color :#0056b3;
+}
+
+@media (max-width :768px) {
+   .pokemon-item {
+       width :100%;
+       max-width :250px;
+       height:auto;
+       min-height :220px;
+       margin-bottom :20px;
+       font-size :14px;
+       line-height :1.2em;
+     }
+
+     .pokemon-image {
+         max-width :80%;
+         height:auto;
+         margin-top :5px;
+     }
+}
