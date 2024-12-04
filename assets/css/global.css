@@ -23,8 +23,7 @@ h1 {
 }
 
 h1:hover {
-    transform: translateY(-10px); /* Elevação no hover */
-}
+    transform: translateY(-10px);
 
 h1:hover::before {
     opacity: 1;
