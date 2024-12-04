@@ -13,7 +13,19 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    margin-top: 50px;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
     box-sizing: border-box;
+    padding: 50px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    position: relative;
+}
+
+h1:hover {
+    transform: translateY(-10px); /* Elevação no hover */
+}
+
+h1:hover::before {
+    opacity: 1;
 }
