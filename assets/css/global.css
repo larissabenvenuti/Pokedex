@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Estilos principais para o conteúdo */
 main {
     width: 100%;
@@ -96,3 +97,29 @@ h1 {
     font-weight: 700;
     margin-top: 50px; /* Adicione margem superior para dar espaçamento */
 }
+=======
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+>>>>>>> 627a1ca6aebeb81b88429225fe0a5754e6a58a33
