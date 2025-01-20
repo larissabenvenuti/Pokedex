@@ -5,20 +5,19 @@ body {
 
 main {
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     background-color: #f5f5f5;
 }
 
 h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
     box-sizing: border-box;
     padding: 50px;
     text-transform: uppercase;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     position: relative;
 }
 
@@ -27,4 +26,5 @@ h1:hover {
 
 h1:hover::before {
     opacity: 1;
+}
 }
